@@ -1,0 +1,49 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+  background-image: url("images/stage.jpg");
+  background-repeat: round;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+
+h1 {
+  font-family: 'Coda Caption', sans-serif !important;
+  color: black !important;
+  -webkit-text-stroke: 1px white !important;
+  text-align: center;
+  font-size: 50px;
+}
+
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+  border-radius:10px;
+  position:absolute;
+}
+
+.team {
+  max-height: 230px;
+}
+
+.teamFormation {
+  animation: 
+}
+
+.breaker {
+  max-height: 145px !important;
+}

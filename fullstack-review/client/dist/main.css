@@ -1,0 +1,68 @@
+h1 {
+  margin: 20px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  color: black;
+  -webkit-text-stroke: 0.6px white;
+  text-shadow: 0 2px 2px black;
+}
+
+h4 {
+  text-align: right;
+  font-family: "Lobster", cursive;
+  /* float: right; */
+}
+
+.topRepos {
+  background: black;
+  color: white;
+  box-shadow: 0 5px 0px black;
+}
+
+.allRepos {
+  margin-left: 25px;
+}
+
+span {
+  display: block;
+  color: black;
+  font-family: signpainter;
+  font-size: 30px;
+}
+
+.images {
+  width: 125px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+  margin: 20px auto;
+  height: 135px;
+}
+
+.links {
+  margin-left: 25px;
+  font-size: 37px;
+  display: inline-flex;
+  text-decoration: none !important;
+  font-family: signpainter;
+}
+
+.links:hover {
+  text-shadow: 0 1px 1px black;
+}
+
+.search {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.count {
+  background: white;
+  border: 1px solid black;
+  width: 8%;
+  border-radius: 25px;
+  box-shadow: 0 0 3px black;
+  text-align: center;
+  margin: 0 15px;
+  float: right;
+}

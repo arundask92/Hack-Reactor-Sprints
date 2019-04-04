@@ -1,0 +1,98 @@
+* {
+    font-family: 'Neucha', cursive;
+}
+
+body {
+    background: linear-gradient(to bottom right, white, rgb(0, 173, 226))
+}
+
+.logo {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+h2 {
+    text-shadow: 0 0 6px rgb(0, 0, 0); 
+}
+
+.container-message-rooms {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageContainer {
+    display: flex;
+    flex: 1;
+}
+
+.messageListContainer {
+    display: flex;
+    /* flex-direction: column;  */
+    width: 100%;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.messageBox {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+#messages {
+    width: 100%;
+    height: 600px;
+    overflow: auto;
+    direction: ltr;
+    background-color: white;
+}
+
+#messages::after  {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.timeStamp {
+    float: right;
+    margin-top: -17px;
+}
+
+.tweet {
+    text-align: center
+}
+
+.whosOnlineListContainer {
+    width: 300px;
+    flex: none;
+    padding: 20px 0 20px 0;
+    background-color: skyblue;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    overflow: auto;
+    direction: ltr;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0 1px 3px black;
+}

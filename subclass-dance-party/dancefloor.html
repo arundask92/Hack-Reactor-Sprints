@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object Dance Party</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
+    <script src="lib/jquery.js"></script>
+    <script src="src/dancer.js"></script>
+    <script src="src/blinkyDancer.js"></script>
+    <script src="src/bouncyDancer.js"></script>
+    <script src="src/breakDancer.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-dark bg-dark topbar">
+      <a href="#" class="formation btn btn-secondary btn-sm" data-dancer-formation="formation">Formation</a>
+      
+      <a href="#" class="addDancerButton btn btn-secondary btn-sm" data-dancer-maker-function-name="makeBlinkyDancer">Add a blinky dancer</a>
+      
+      <a href="#" class="addDancerButton btn btn-secondary btn-sm" data-dancer-maker-function-name="makeBouncyDancer">Add a bouncy dancer</a>
+      
+       <a href="#" class="addDancerButton btn btn-secondary btn-sm" data-dancer-maker-function-name="makeBreakDancer">Add a break dancer</a>
+    </div>
+    <h1 class="animated zoomInDown">Hack Reactor's Got Talent</h1>
+    <script src="src/init.js"></script>
+  </body>
+</html>

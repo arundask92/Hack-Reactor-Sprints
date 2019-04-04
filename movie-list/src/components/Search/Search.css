@@ -1,0 +1,9 @@
+.input-group {
+  width: 50% !important;
+}
+
+@media (max-width: 500px) {
+  .input-group {
+    width: 100% !important;
+  }
+}

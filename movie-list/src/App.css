@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  box-shadow: 0 0 10px black;
+  margin: 150px auto !important;
+  width: 50% !important;
+  border: 1px black solid;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.App-header {
+  background-color: lightgrey;
+  color: slategrey;
+  font-family: monospace;
+  box-shadow: 0 0 10px black;
+  text-shadow: 0 2px 2px black;
+  padding-left: 10px;
+  font-family: "Merienda", cursive;
+}

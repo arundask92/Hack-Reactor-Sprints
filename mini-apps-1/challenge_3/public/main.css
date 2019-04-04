@@ -1,0 +1,60 @@
+.wrapper {
+  height: 100vh;
+  width: 85%;
+  margin: 50px auto;
+  text-align: center;
+  background: grey;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px inset black;
+}
+
+.mainHead {
+  background: grey;
+  color: white;
+  text-align: center;
+  box-shadow: 0 5px 5px black;
+}
+
+h1 {
+  font-family: signpainter;
+  font-size: 45px;
+}
+
+.btn-block {
+  margin: 150px auto;
+}
+
+.btn {
+  width: 80%;
+}
+
+.fields {
+  margin-top: 20%;
+}
+
+.form {
+  background: lightgrey;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+/* .forms {
+  background: lightgrey;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+} */
+
+label {
+  float: left;
+}
+
+.userInfo {
+  text-align: left;
+}
+
+span {
+  color: white;
+}
